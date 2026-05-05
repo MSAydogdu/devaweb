@@ -1,0 +1,14 @@
+:root { --bg:#0f172a; --text:#0b1324; --muted:#4b5563; --primary:#1d4ed8; --white:#fff; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:Arial,sans-serif; color:var(--text); line-height:1.6; }
+.container { width:min(1100px, 92%); margin:0 auto; padding:24px 0; }
+header { display:flex; flex-direction:column; gap:8px; }
+nav { display:flex; flex-wrap:wrap; gap:12px; }
+nav a { text-decoration:none; color:var(--primary); font-weight:600; }
+.hero { background:#eff6ff; border-radius:14px; padding:36px 24px; margin-top:8px; }
+.cta-row { display:flex; gap:12px; flex-wrap:wrap; margin-top:16px; }
+.btn { display:inline-block; background:var(--primary); color:var(--white); text-decoration:none; padding:10px 16px; border-radius:10px; }
+.btn-outline { background:transparent; color:var(--primary); border:1px solid var(--primary); }
+.cards ul { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:10px; padding-left:18px; }
+.cta-block { background:#f8fafc; border-radius:12px; padding:24px; }
+footer { border-top:1px solid #e5e7eb; color:var(--muted); }
